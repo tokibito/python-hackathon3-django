@@ -5,8 +5,8 @@
 <body>
 <ul>
   <li><a href="{% url index %}">トップページ</a></li>
-  <li><a href="{% url list_person %}">person</a></li>
-  <li><a href="{% url list_book %}">book</a></li>
+  <li><a href="{% url person:list %}">person</a></li>
+  <li><a href="{% url book:list %}">book</a></li>
 </ul>
 <hr>
 {% block main %}{% endblock %}

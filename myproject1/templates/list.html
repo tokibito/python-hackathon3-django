@@ -7,5 +7,5 @@
 <li>{{ o }}</li>
 {% endfor %}
 </ul>
-<a href="{% block action_url %}{% url add_person %}{% endblock %}">追加</a>
+<a href="{% block action_url %}{% url person:add %}{% endblock %}">追加</a>
 {% endblock %}
