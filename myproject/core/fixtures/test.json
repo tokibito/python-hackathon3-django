@@ -1,0 +1,62 @@
+[
+  {
+    "pk": 1, 
+    "model": "core.person", 
+    "fields": {
+      "first_name": "\u771f\u4e5f", 
+      "last_name": "\u5ca1\u91ce"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "core.person", 
+    "fields": {
+      "first_name": "\u3075\u304c", 
+      "last_name": "\u307b\u3052"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "core.person", 
+    "fields": {
+      "first_name": "\u305f\u308d\u3046", 
+      "last_name": "\u3071\u3044\u305d\u3093"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "core.book", 
+    "fields": {
+      "title": "Python\u306e\u672c", 
+      "author": 2
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "core.book", 
+    "fields": {
+      "title": "Django\u306e\u672c", 
+      "author": 2
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "core.book", 
+    "fields": {
+      "title": "\u672cA", 
+      "author": 3
+    }
+  },
+  {
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+      "username": "admin",
+      "is_active": true,
+      "is_superuser": true,
+      "is_staff": true,
+      "password": "sha1$b0245$5e869b0d71b92f4c1b645e21598db3eb8c016101",
+      "email": "admin@example.com"
+    }
+  }
+]
