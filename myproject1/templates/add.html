@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block main %}
+{% trans "Add" %}: {{ title }}
+<form action="{% block action_url %}{% url add_person %}{% endblock %}" method="post">
+{{ form.as_p }}
+<input type="submit">
+</form>
+{% endblock %}
